@@ -26,11 +26,26 @@
                 <button id="startBtn" class="btn btn-primary">
                     <span class="icon">📷</span> Start Camera
                 </button>
+                <button id="captureBtn" class="btn btn-accent" disabled>
+                    <span class="icon">📸</span> Capture Photo
+                </button>
                 <button id="stopBtn" class="btn btn-secondary" disabled>
                     <span class="icon">🚫</span> Stop Camera
                 </button>
             </div>
+            
+            <canvas id="canvas" style="display:none;"></canvas>
         </main>
+
+        <section class="gallery-section">
+            <div class="gallery-header">
+                <h2>Your Gallery</h2>
+                <button id="clearGallery" class="btn btn-text">Clear All</button>
+            </div>
+            <div id="gallery" class="gallery-grid">
+                <!-- Captured photos will appear here -->
+            </div>
+        </section>
 
         <footer>
             <p>&copy; 2026 WebCam Pro. All rights reserved.</p>

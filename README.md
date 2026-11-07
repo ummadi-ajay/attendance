@@ -9,3 +9,11 @@ This repository contains a premium web-based camera application designed for the
 
 ## Setup
 Simply open `index.html` in a modern web browser.
+
+**Live:** https://makerworkslab.in/attendance/
+
+Built by [Ajay Ummadi](https://makerworkslab.in/ajayummadi/) at [MakerWorks Lab](https://makerworkslab.in/), Mumbai.
+
+## License
+
+MIT. See [LICENSE](LICENSE). Copyright (c) 2026 Ajay Ummadi.
